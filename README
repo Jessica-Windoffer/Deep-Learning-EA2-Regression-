@@ -13,7 +13,8 @@ A4) Versuchen Sie das zweite Model (Over-Fit) so lange zu trainieren, bis es ove
 Modell und Optimierung:
 Nutzen Sie für Ihr Modell die folgende Netzwerkarchitektur und Parametern für die Neuronen und den Lernalgorithmus:
 
-Anzahl der hidden Layer und Neuron pro Layer: 2 hidden Layer mit je 100 Neuronen (Sie können auch mit anderen/größeren Architekturen experimentieren)
+Anzahl der hidden Layer und Neuron pro Layer:
+2 hidden Layer mit je 100 Neuronen (Sie können auch mit anderen/größeren Architekturen experimentieren)
 Aktivierungsfunktionen in den hidden Layer: ReLU (Sie können auch mit anderen experimentieren)
 Aktivierungsfunktionen im Output Layer (1 Neuron): linear (y=x) "none"
 Als Loss nutzen Sie Mean-Squared-Error (MSE)
@@ -38,7 +39,6 @@ Schreiben Sie unter die Diagramme mit den Vorhersagen, den Loss=MeanSquaredError
 
 Diskussion:
 Dokumentieren und begründen Sie Ihre Parameter und Einstellungen. Diskutieren Sie Ihre Ergebnisse (unter den Resultaten auf der gleichen HTML-Seite, max. 10 Sätze). Was haben Sie beobachtet/gelernt? 
-
 
 Dokumentation:
 Nutzen Sie die gleiche HTML-Seite (unter der Diskussion) wie zur Abgabe Ihrer Lösung zur Dokumentation der folgenden Aspekte:
