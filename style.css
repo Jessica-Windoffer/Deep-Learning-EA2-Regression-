@@ -1,0 +1,52 @@
+/* 
+GENERAL INFORMATION
+1. Use of percentages as size specifications throughout the document
+   primarily (everywhere it is possible) to ensure better scalability
+   regarding responsive design and to guarantee an optimal UI.
+*/
+
+/* Setting font-familiy for the whole application */
+* {
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* Sets styles that affect the entire document */
+body {
+  margin-left: 1%; /* Set a margin to the left of the content so it doesn't stick to the left side of the browser */
+}
+
+h1 {
+  text-align: center; /* Align the headline to the center of the page */
+  color: darkblue; /* Set the color of the headline from black to a dark blue */
+  margin-bottom: 0%; /* Remove the margin from the bottom of the headline as the gap would be to big otherwise */
+}
+
+h2 {
+  text-align: center; /* Align the subheading to the center of the page */
+  color: royalblue; /* Set the color of the headline from black to a light blue
+                         -> The subheading also is set to blue as color to show its belonging to the headline above,
+                            but because of its lighter color it is clearly secondary */
+  margin-top: 0.6%; /* Remove the margin from the bottom of the headline as the gap would be to big otherwise */
+}
+
+/* 1. Same as h1
+   -> Except the fact, that  this headline is not centered because it would bring too much unrest into the overall picture */
+h3 {
+  margin: 0.6% 0 0.6% 0;
+  color: darkgreen;
+}
+
+/* Same as h2 and h3 */
+h4 {
+  margin: 0.6% 0 0.6% 0;
+  color: rgb(44, 164, 44);
+}
+
+/*  Setting headline to medium, because in original size it is to small */
+h5 {
+  font-size: medium;
+  margin: 0 0 0.8% 0;
+  color: rgb(129, 207, 19);
+}
